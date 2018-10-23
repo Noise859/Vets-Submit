@@ -40,7 +40,7 @@ app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); 
   
 function sendIt(res) {
-  res.send("image uploaded");
+  res.send("Image uploaded, thanks a lot!");
 }
  
 app.post('/upload',upload.single("upload"),function(req,res){
