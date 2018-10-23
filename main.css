@@ -115,6 +115,10 @@ table {
   font-size: 18px;
 }
 
+#ad {
+  font-size: 12px !important;
+}
+
 .loader,
 .loader:after {
   border-radius: 50%;
